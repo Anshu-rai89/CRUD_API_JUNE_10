@@ -12,4 +12,8 @@ describe('Test cases for user registration', ()=> {
         expect(res.statusCode).toBe(400);
         expect(res.body[0].msg).toEqual("Bad request");
     })
+
+    it("This will fail",()=> {
+        expect(true).toEqual(false);
+    })
 })
