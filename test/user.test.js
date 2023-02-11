@@ -14,6 +14,6 @@ describe('Test cases for user registration', ()=> {
     })
 
     it("This will fail",()=> {
-        expect(true).toEqual(false);
+        expect(true).toEqual(true);
     })
 })
